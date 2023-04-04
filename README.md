@@ -14,14 +14,12 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Description
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Application built using Angular which uses Most of the Angular Features like Routing, Forms, Services, Observables.
+- Firebase to store Recipes and Also for Authentication.
+- User can fetch Recipes from backend using "fetch" in "Manage" drop-down in the Navigation.
+- Any updates made to Recipes must be saved using "Save" in "Manage" drop-down in the Navigation.
+- Recipe ingredients can be sent to Shopping-list Route using "Manage" in Edit Recipe route.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
